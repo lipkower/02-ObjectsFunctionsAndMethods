@@ -211,7 +211,7 @@ def try_methods_and_functions():
       8. Draw a SQUARE whose sides are each of length 50.
     """
     ###########################################################################
-    # TODO: 6. Implement and test this function, per its doc-string above.
+    # done: 6. Implement and test this function, per its doc-string above.
     #   The testing code (in main) is already written for you.
     #
     #   NOTE: This function should ** CALL ** the
@@ -237,7 +237,8 @@ draw_many_squares(billy, 8, 300, 60)
 
 billy.pen = rg.Pen('black', 3)
 billy.backward(200)
-
+billy.draw_circle(30)
+billy.draw_square(50)
 
 # -----------------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
